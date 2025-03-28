@@ -1,0 +1,16 @@
+.Nav{
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px #7d7c7c Solid;
+}
+
+.Menu{
+    display: flex;
+    gap: 10px;
+}
+
+.Nav img{
+    width: 25%;
+}

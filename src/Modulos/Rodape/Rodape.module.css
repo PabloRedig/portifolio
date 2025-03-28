@@ -1,0 +1,10 @@
+.Block{
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px #7d7c7c Solid;
+}

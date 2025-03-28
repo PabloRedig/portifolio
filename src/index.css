@@ -1,13 +1,53 @@
-body {
+/* Box-sizing padrão para evitar problemas de tamanho */
+*, *::before, *::after {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Remove estilos padrão e usa herança de fontes */
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Configuração básica do body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Links sem decoração e cor padrão */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Listas sem espaçamentos extras */
+ul, ol {
+  list-style: none;
+}
+
+/* Botões sem estilos padrão */
+button, input, textarea, select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Imagens responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tabelas sem espaçamento estranho */
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
